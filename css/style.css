@@ -20,7 +20,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -68,11 +68,11 @@ button {
   overflow: hidden;
 }
 
-.wrapper > main {
+.wrapper>main {
   flex: 1 1 auto;
 }
 
-.wrapper > * {
+.wrapper>* {
   min-width: 0;
 }
 
@@ -106,6 +106,7 @@ button {
     font-size: 40px;
   }
 }
+
 .travel__text {
   color: rgba(42, 43, 47, 0.8);
   text-align: center;
@@ -120,12 +121,19 @@ button {
     max-width: 100%;
   }
 }
+
 .m-t-40 {
   margin-top: 40px;
 }
 
 .m-t-116 {
   margin-top: 116px;
+}
+
+@media (max-width: 500px) {
+  .m-t-116 {
+    margin-top: 85px;
+  }
 }
 
 .m-t-70 {
@@ -149,6 +157,7 @@ button {
     padding: 10px 20px;
   }
 }
+
 .solution {
   align-items: center;
   display: flex;
@@ -165,6 +174,7 @@ button {
     padding: 0 20px;
   }
 }
+
 .solution__title {
   color: #000;
   text-align: center;
@@ -179,6 +189,7 @@ button {
     font-size: 40px;
   }
 }
+
 .solution__text {
   color: rgba(42, 43, 47, 0.9);
   text-align: center;
@@ -193,6 +204,7 @@ button {
     max-width: 100%;
   }
 }
+
 .solution__wrap {
   margin-top: 70px;
   gap: 20px;
@@ -207,6 +219,13 @@ button {
     gap: 0px;
   }
 }
+
+@media (max-width: 500px) {
+  .solution__wrap {
+    margin-top: 0px;
+  }
+}
+
 .column {
   display: flex;
   flex-direction: column;
@@ -221,6 +240,7 @@ button {
     width: 100%;
   }
 }
+
 .card {
   justify-content: flex-end;
   border-radius: 32px;
@@ -240,6 +260,7 @@ button {
     margin-top: 20px;
   }
 }
+
 .card__title {
   color: #000;
   letter-spacing: -1.02px;
@@ -257,9 +278,9 @@ button {
 .solution__img {
   aspect-ratio: 1.49;
   -o-object-fit: auto;
-     object-fit: auto;
+  object-fit: auto;
   -o-object-position: center;
-     object-position: center;
+  object-position: center;
   width: 100%;
   margin-top: 16px;
 }
@@ -286,6 +307,13 @@ button {
     padding: 0 20px;
   }
 }
+
+@media (max-width: 500px) {
+  .product {
+    padding: 0 0px;
+  }
+}
+
 .product__title {
   text-align: center;
   letter-spacing: -3px;
@@ -298,6 +326,7 @@ button {
     font-size: 40px;
   }
 }
+
 .product__text {
   color: rgba(42, 43, 47, 0.8);
   text-align: center;
@@ -314,6 +343,7 @@ button {
     max-width: 100%;
   }
 }
+
 .product__wrap {
   display: flex;
   margin-top: 64px;
@@ -333,6 +363,13 @@ button {
     padding: 0 20px;
   }
 }
+
+@media (max-width: 500px) {
+  .product__wrap {
+    padding: 0 0px;
+  }
+}
+
 .product__buttons {
   align-self: center;
   display: flex;
@@ -345,6 +382,7 @@ button {
     flex-wrap: wrap;
   }
 }
+
 .product-card {
   justify-content: center;
   border-radius: 32px;
@@ -361,6 +399,7 @@ button {
     padding: 0 20px;
   }
 }
+
 .product__wrap-content:after,
 .product__wrap-content:before {
   position: absolute;
@@ -404,6 +443,7 @@ button {
     gap: 0px;
   }
 }
+
 .product-card__item {
   display: flex;
   flex-direction: column;
@@ -417,6 +457,7 @@ button {
     margin-bottom: 10px;
   }
 }
+
 .product-card__title {
   color: #000;
   letter-spacing: -3px;
@@ -429,11 +470,13 @@ button {
     font-size: 40px;
   }
 }
+
 @media (max-width: 500px) {
   .product-card__title {
     font-size: 30px;
   }
 }
+
 .product-card__list {
   color: rgba(42, 43, 47, 0.9);
   letter-spacing: -0.18px;
@@ -448,6 +491,15 @@ button {
     max-width: 100%;
   }
 }
+
+@media (max-width: 500px) {
+  .product-card__list {
+    font-size: 14px;
+    margin-top: 25px;
+    margin-left: 9px;
+  }
+}
+
 .product-card__img {
   border-radius: 32px;
   max-width: 507px;
@@ -460,11 +512,13 @@ button {
     height: 100%;
   }
 }
+
 @media (max-width: 991px) {
   .product-card__img {
     width: 100%;
   }
 }
+
 .product__button {
   font-family: Inter, sans-serif;
   font-weight: 600;
@@ -484,11 +538,13 @@ button {
     padding: 10px 20px;
   }
 }
+
 @media (max-width: 500px) {
   .product__button {
     width: 100%;
   }
 }
+
 .product__button-active {
   background-color: #0146fe;
   color: #fff;
@@ -511,6 +567,7 @@ button {
     padding: 0 20px;
   }
 }
+
 .help__title {
   color: #000;
   text-align: center;
@@ -526,6 +583,13 @@ button {
     font-size: 40px;
   }
 }
+
+@media (max-width: 500px) {
+  .help__title {
+    font-size: 36px;
+  }
+}
+
 .help__card-wrap {
   margin-top: 61px;
   width: 919px;
@@ -542,6 +606,7 @@ button {
     margin-top: 10px;
   }
 }
+
 .help__card-img {
   justify-content: center;
   align-items: center;
@@ -554,6 +619,7 @@ button {
     padding: 0 20px;
   }
 }
+
 .help__card-title {
   color: #000;
   text-align: center;
@@ -591,4 +657,4 @@ button {
   .contacts__item {
     margin-right: 36px;
   }
-}/*# sourceMappingURL=style.css.map */
+}
